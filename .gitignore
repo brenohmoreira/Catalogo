@@ -1,0 +1,53 @@
+# Ignore pastas e arquivos do Visual Studio
+.vs/
+APICatalogo/.vs/
+
+# Build
+bin/
+obj/
+
+# Arquivos do usuário do Visual Studio
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Configurações do Rider
+.idea/
+
+# Arquivos temporários
+*.tmp
+*.temp
+
+# Logs
+*.log
+
+# Pacotes NuGet
+*.nupkg
+*.snupkg
+packages/
+
+# Diretório do cache do NuGet
+.nuget/
+
+# Arquivos do publish
+publish/
+
+# Configurações locais do IIS Express
+.vsconfig
+
+# Respostas de build
+*.rsp
+
+# Arquivos do ReSharper
+_ReSharper*/
+*.DotSettings.user
+
+# Diretório do TestResults
+TestResults/
+
+# Configurações locais de workspace VS Code
+.vscode/
+
+# Diretório de arquivos gerados pelo Entity Framework Core
+Migrations/

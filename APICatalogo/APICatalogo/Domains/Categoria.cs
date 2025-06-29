@@ -11,7 +11,7 @@ namespace APICatalogo.Domains
         }
 
         // Se for classId ou Id, o EF Core vai entender que é a chave primária
-        public int CategoriaId { get; set; }
+        public int Id { get; set; }
         
         // ? faz ser nullable
         public string? Nome { get; set; }
